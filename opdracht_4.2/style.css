@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+  overflow-x: hidden; 
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 33vh; 
+  background-image: url('./img/gaming-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+header h1 {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px black;
+}
+
+header p {
+  color: #f0f0f0;
+  font-size: 1.1rem;
+  max-width: 700px;
+}
+
+/* Afbeeldingen */
+img {
+  width: 50vw;
+  border-radius: 8px;
+}
+
+/* Artikelen */
+article {
+  border: 3px solid #0077cc;
+  border-left: 8px solid #003366;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  background-color: #f9f9f9;
+}
+
+
+h2 {
+  color: #333;
+}
+
+a {
+  color: #8A2BE2;
+  text-decoration: none;
+}
