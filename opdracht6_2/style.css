@@ -1,0 +1,33 @@
+/* De container */
+.container {
+  display: flex;          
+  justify-content: space-around;
+  align-items: center;        
+  max-width: 1200px;          
+  margin: 0 auto;           
+  height: 100vh;              
+  background-color: #f5f5f5;  
+}
+
+
+.blok {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.rood { background-color: red; }
+.blauw { background-color: blue; }
+.groen { background-color: green; }
+.geel { background-color: gold; }
+
+
+.reverse {
+  flex-direction: row-reverse;
+}
